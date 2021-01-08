@@ -5375,3 +5375,125 @@ Done. PASS=4 WARN=0 ERROR=9 SKIP=1 TOTAL=14
 2021-01-08 15:43:29.923548 (Thread-197): handling status request
 2021-01-08 15:43:29.923989 (Thread-197): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e639910>]}
 2021-01-08 15:43:29.924849 (Thread-197): sending response (<Response 448 bytes [200 OK]>) to 10.0.14.37
+2021-01-08 15:43:36.296825 (Thread-198): Parsing macros/relations.sql
+2021-01-08 15:43:36.297645 (Thread-198): Parsing macros/adapters.sql
+2021-01-08 15:43:36.326195 (Thread-198): Parsing macros/catalog.sql
+2021-01-08 15:43:36.338719 (Thread-198): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 15:43:36.339704 (Thread-198): Parsing macros/relations.sql
+2021-01-08 15:43:36.341097 (Thread-198): Parsing macros/adapters.sql
+2021-01-08 15:43:36.361184 (Thread-198): Parsing macros/catalog.sql
+2021-01-08 15:43:36.363483 (Thread-198): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 15:43:36.366105 (Thread-198): Parsing macros/core.sql
+2021-01-08 15:43:36.369675 (Thread-198): Parsing macros/adapters/common.sql
+2021-01-08 15:43:36.412734 (Thread-198): Parsing macros/materializations/helpers.sql
+2021-01-08 15:43:36.421374 (Thread-198): Parsing macros/materializations/table/table.sql
+2021-01-08 15:43:36.428050 (Thread-198): Parsing macros/materializations/seed/seed.sql
+2021-01-08 15:43:36.448008 (Thread-198): Parsing macros/materializations/view/view.sql
+2021-01-08 15:43:36.454036 (Thread-198): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-08 15:43:36.458842 (Thread-198): Parsing macros/materializations/incremental/helpers.sql
+2021-01-08 15:43:36.460610 (Thread-198): Parsing macros/materializations/incremental/incremental.sql
+2021-01-08 15:43:36.466605 (Thread-198): Parsing macros/materializations/common/merge.sql
+2021-01-08 15:43:36.479995 (Thread-198): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-08 15:43:36.495898 (Thread-198): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-08 15:43:36.497628 (Thread-198): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-08 15:43:36.525854 (Thread-198): Parsing macros/schema_tests/relationships.sql
+2021-01-08 15:43:36.527785 (Thread-198): Parsing macros/schema_tests/not_null.sql
+2021-01-08 15:43:36.529275 (Thread-198): Parsing macros/schema_tests/unique.sql
+2021-01-08 15:43:36.530985 (Thread-198): Parsing macros/schema_tests/accepted_values.sql
+2021-01-08 15:43:36.533605 (Thread-198): Parsing macros/etc/get_custom_database.sql
+2021-01-08 15:43:36.535296 (Thread-198): Parsing macros/etc/query.sql
+2021-01-08 15:43:36.536332 (Thread-198): Parsing macros/etc/datetime.sql
+2021-01-08 15:43:36.544856 (Thread-198): Parsing macros/etc/get_custom_alias.sql
+2021-01-08 15:43:36.545838 (Thread-198): Parsing macros/etc/is_incremental.sql
+2021-01-08 15:43:36.547488 (Thread-198): Parsing macros/etc/get_custom_schema.sql
+2021-01-08 15:43:36.589892 (Thread-198): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_DEMOGOG_STAGING".
+2021-01-08 15:43:36.603234 (Thread-198): Acquiring new redshift connection "model.my_new_project.WNS_NM_SD_DIM_CUSTOMER_DEMO".
+2021-01-08 15:43:36.622167 (Thread-198): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_TT_UCID_REFTABLE".
+2021-01-08 15:43:36.634700 (Thread-198): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP1_2".
+2021-01-08 15:43:36.645066 (Thread-199): handling status request
+2021-01-08 15:43:36.645384 (Thread-199): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f1f3880>]}
+2021-01-08 15:43:36.645985 (Thread-199): sending response (<Response 185 bytes [200 OK]>) to 10.0.29.161
+2021-01-08 15:43:36.651358 (Thread-198): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP2".
+2021-01-08 15:43:36.668333 (Thread-198): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_INFO".
+2021-01-08 15:43:36.685295 (Thread-198): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP1".
+2021-01-08 15:43:36.699789 (Thread-198): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP3".
+2021-01-08 15:43:38.099813 (Thread-200): handling status request
+2021-01-08 15:43:38.100269 (Thread-200): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e32b220>]}
+2021-01-08 15:43:38.126041 (Thread-200): sending response (<Response 11204 bytes [200 OK]>) to 10.0.45.44
+2021-01-08 15:48:33.385906 (MainThread): Connection 'model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP3' was properly closed.
+2021-01-08 15:48:33.451227 (Thread-201): Got an acceptable cached parse result
+2021-01-08 15:48:33.484643 (Thread-201): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_DEMOGOG_STAGING".
+2021-01-08 15:48:34.342800 (Thread-202): handling status request
+2021-01-08 15:48:34.343239 (Thread-202): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e449190>]}
+2021-01-08 15:48:34.344162 (Thread-202): sending response (<Response 765 bytes [200 OK]>) to 10.0.12.132
+2021-01-08 15:48:43.771685 (MainThread): Connection 'model.my_new_project.wns_nm_DD_DEMOGOG_STAGING' was properly closed.
+2021-01-08 15:48:43.835429 (Thread-203): Got an acceptable cached parse result
+2021-01-08 15:48:43.886922 (Thread-203): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_TT_UCID_REFTABLE".
+2021-01-08 15:48:44.195550 (Thread-204): handling status request
+2021-01-08 15:48:44.195996 (Thread-204): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6ffd8e80>]}
+2021-01-08 15:48:44.196915 (Thread-204): sending response (<Response 766 bytes [200 OK]>) to 10.0.18.208
+2021-01-08 15:48:53.825532 (MainThread): Connection 'model.my_new_project.wns_nm_DD_TT_UCID_REFTABLE' was properly closed.
+2021-01-08 15:48:53.886783 (Thread-205): Got an acceptable cached parse result
+2021-01-08 15:48:53.943007 (Thread-205): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP1".
+2021-01-08 15:48:54.256961 (Thread-206): handling status request
+2021-01-08 15:48:54.259285 (Thread-206): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d75258df0>]}
+2021-01-08 15:48:54.260161 (Thread-206): sending response (<Response 769 bytes [200 OK]>) to 10.0.16.243
+2021-01-08 15:49:01.403864 (MainThread): Connection 'model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP1' was properly closed.
+2021-01-08 15:49:01.463983 (Thread-207): Got an acceptable cached parse result
+2021-01-08 15:49:01.508782 (Thread-207): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP1_2".
+2021-01-08 15:49:01.827575 (Thread-208): handling status request
+2021-01-08 15:49:01.827991 (Thread-208): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e5565b0>]}
+2021-01-08 15:49:01.828873 (Thread-208): sending response (<Response 771 bytes [200 OK]>) to 10.0.23.166
+2021-01-08 15:49:11.363753 (MainThread): Connection 'model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP1_2' was properly closed.
+2021-01-08 15:49:11.424580 (Thread-209): Got an acceptable cached parse result
+2021-01-08 15:49:11.473137 (Thread-209): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP2".
+2021-01-08 15:49:11.800674 (Thread-210): handling status request
+2021-01-08 15:49:11.801102 (Thread-210): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e237f10>]}
+2021-01-08 15:49:11.802077 (Thread-210): sending response (<Response 769 bytes [200 OK]>) to 10.0.29.161
+2021-01-08 15:49:26.869894 (MainThread): Connection 'model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP2' was properly closed.
+2021-01-08 15:49:26.929930 (Thread-211): Got an acceptable cached parse result
+2021-01-08 15:49:27.095010 (Thread-211): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_INFO".
+2021-01-08 15:49:27.528394 (Thread-212): handling status request
+2021-01-08 15:49:27.528839 (Thread-212): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e042a00>]}
+2021-01-08 15:49:27.529730 (Thread-212): sending response (<Response 763 bytes [200 OK]>) to 10.0.44.27
+2021-01-08 15:49:37.816536 (MainThread): Connection 'model.my_new_project.wns_nm_DD_UCID_HHI_INFO' was properly closed.
+2021-01-08 15:49:37.880462 (Thread-213): Got an acceptable cached parse result
+2021-01-08 15:49:37.919134 (Thread-213): Acquiring new redshift connection "model.my_new_project.WNS_NM_SD_DIM_CUSTOMER_DEMO".
+2021-01-08 15:49:38.265738 (Thread-214): handling status request
+2021-01-08 15:49:38.266201 (Thread-214): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e224460>]}
+2021-01-08 15:49:38.267105 (Thread-214): sending response (<Response 767 bytes [200 OK]>) to 10.0.44.27
+2021-01-08 15:52:33.523323 (MainThread): Connection 'model.my_new_project.WNS_NM_SD_DIM_CUSTOMER_DEMO' was properly closed.
+2021-01-08 15:52:33.586979 (Thread-215): Got an acceptable cached parse result
+2021-01-08 15:52:33.751835 (Thread-215): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP3".
+2021-01-08 15:52:34.503553 (Thread-216): handling status request
+2021-01-08 15:52:34.503979 (Thread-216): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f336790>]}
+2021-01-08 15:52:34.504878 (Thread-216): sending response (<Response 769 bytes [200 OK]>) to 10.0.12.132
+2021-01-08 15:52:43.994164 (MainThread): Connection 'model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP3' was properly closed.
+2021-01-08 15:52:44.058654 (Thread-217): Got an acceptable cached parse result
+2021-01-08 15:52:44.122190 (Thread-217): Acquiring new redshift connection "model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP3".
+2021-01-08 15:52:44.457551 (Thread-218): handling status request
+2021-01-08 15:52:44.457976 (Thread-218): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f4167f0>]}
+2021-01-08 15:52:44.458946 (Thread-218): sending response (<Response 769 bytes [200 OK]>) to 10.0.44.27
+2021-01-08 15:52:49.920320 (Thread-219): handling status request
+2021-01-08 15:52:49.920758 (Thread-219): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f416dc0>]}
+2021-01-08 15:52:49.921661 (Thread-219): sending response (<Response 769 bytes [200 OK]>) to 10.0.44.27
+2021-01-08 15:52:50.345558 (Thread-220): handling compile_sql request
+2021-01-08 15:52:50.345990 (Thread-220): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f350850>]}
+2021-01-08 15:52:50.347173 (Thread-220): Connection 'model.my_new_project.wns_nm_DD_UCID_HHI_DEMO_TEMP3' was properly closed.
+2021-01-08 15:52:51.173640 (Thread-220): sending response (<Response 138 bytes [200 OK]>) to 10.0.44.142
+2021-01-08 15:52:51.190806 (MainThread): Acquiring new redshift connection "rpc.my_new_project.request".
+2021-01-08 15:52:51.243431 (MainThread): Found 8 models, 0 tests, 0 snapshots, 0 analyses, 163 macros, 0 operations, 0 seed files, 0 sources
+2021-01-08 15:52:51.243928 (Thread-1): Acquiring new redshift connection "rpc.my_new_project.request".
+2021-01-08 15:52:51.244030 (Thread-1): Compiling rpc.my_new_project.request
+2021-01-08 15:52:51.260914 (Thread-1): finished collecting timing info
+2021-01-08 15:52:51.261122 (Thread-1): finished collecting timing info
+2021-01-08 15:52:51.605489 (Thread-221): handling poll request
+2021-01-08 15:52:51.605946 (Thread-221): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f416e80>]}
+2021-01-08 15:52:51.610396 (Thread-221): sending response (<Response 10485 bytes [200 OK]>) to 10.0.2.182
+2021-01-08 15:52:58.044977 (Thread-222): Got an acceptable cached parse result
+2021-01-08 15:52:58.435225 (Thread-223): handling status request
+2021-01-08 15:52:58.435633 (Thread-223): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e6e5190>]}
+2021-01-08 15:52:58.436518 (Thread-223): sending response (<Response 448 bytes [200 OK]>) to 10.0.16.243
+2021-01-08 15:53:09.124362 (Thread-224): handling status request
+2021-01-08 15:53:09.124983 (Thread-224): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e31ef10>]}
+2021-01-08 15:53:09.125806 (Thread-224): sending response (<Response 448 bytes [200 OK]>) to 10.0.16.243
