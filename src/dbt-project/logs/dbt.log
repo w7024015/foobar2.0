@@ -6130,3 +6130,133 @@ Done. PASS=4 WARN=0 ERROR=9 SKIP=1 TOTAL=14
 2021-01-08 18:20:41.345902 (Thread-373): handling status request
 2021-01-08 18:20:41.346356 (Thread-373): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f3b4ac0>]}
 2021-01-08 18:20:41.347408 (Thread-373): sending response (<Response 1633 bytes [200 OK]>) to 10.0.44.27
+2021-01-08 18:20:47.654724 (Thread-374): Parsing macros/relations.sql
+2021-01-08 18:20:47.655544 (Thread-374): Parsing macros/adapters.sql
+2021-01-08 18:20:47.681366 (Thread-374): Parsing macros/catalog.sql
+2021-01-08 18:20:47.697311 (Thread-374): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:20:47.698330 (Thread-374): Parsing macros/relations.sql
+2021-01-08 18:20:47.699728 (Thread-374): Parsing macros/adapters.sql
+2021-01-08 18:20:47.719707 (Thread-374): Parsing macros/catalog.sql
+2021-01-08 18:20:47.721951 (Thread-374): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:20:47.724581 (Thread-374): Parsing macros/core.sql
+2021-01-08 18:20:47.728076 (Thread-374): Parsing macros/adapters/common.sql
+2021-01-08 18:20:47.773580 (Thread-374): Parsing macros/materializations/helpers.sql
+2021-01-08 18:20:47.782106 (Thread-374): Parsing macros/materializations/table/table.sql
+2021-01-08 18:20:47.788741 (Thread-374): Parsing macros/materializations/seed/seed.sql
+2021-01-08 18:20:47.808276 (Thread-374): Parsing macros/materializations/view/view.sql
+2021-01-08 18:20:47.814280 (Thread-374): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-08 18:20:47.819056 (Thread-374): Parsing macros/materializations/incremental/helpers.sql
+2021-01-08 18:20:47.820840 (Thread-374): Parsing macros/materializations/incremental/incremental.sql
+2021-01-08 18:20:47.826823 (Thread-374): Parsing macros/materializations/common/merge.sql
+2021-01-08 18:20:47.840159 (Thread-374): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-08 18:20:47.855836 (Thread-374): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-08 18:20:47.857564 (Thread-374): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-08 18:20:47.886259 (Thread-374): Parsing macros/schema_tests/relationships.sql
+2021-01-08 18:20:47.888523 (Thread-374): Parsing macros/schema_tests/not_null.sql
+2021-01-08 18:20:47.890464 (Thread-374): Parsing macros/schema_tests/unique.sql
+2021-01-08 18:20:47.892640 (Thread-374): Parsing macros/schema_tests/accepted_values.sql
+2021-01-08 18:20:47.896493 (Thread-374): Parsing macros/etc/get_custom_database.sql
+2021-01-08 18:20:47.898376 (Thread-374): Parsing macros/etc/query.sql
+2021-01-08 18:20:47.899860 (Thread-374): Parsing macros/etc/datetime.sql
+2021-01-08 18:20:47.911184 (Thread-374): Parsing macros/etc/get_custom_alias.sql
+2021-01-08 18:20:47.912632 (Thread-374): Parsing macros/etc/is_incremental.sql
+2021-01-08 18:20:47.914814 (Thread-374): Parsing macros/etc/get_custom_schema.sql
+2021-01-08 18:20:47.963856 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_sd_dim_customer_demo".
+2021-01-08 18:20:47.997717 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_demogog_staging".
+2021-01-08 18:20:48.008636 (Thread-375): handling status request
+2021-01-08 18:20:48.008976 (Thread-375): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f2254c0>]}
+2021-01-08 18:20:48.009643 (Thread-375): sending response (<Response 185 bytes [200 OK]>) to 10.0.16.243
+2021-01-08 18:20:48.018340 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_tt_ucid_reftable".
+2021-01-08 18:20:48.037881 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_info".
+2021-01-08 18:20:48.053325 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp2".
+2021-01-08 18:20:48.077009 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1_2".
+2021-01-08 18:20:48.094054 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1".
+2021-01-08 18:20:48.111319 (Thread-374): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-01-08 18:20:48.294420 (Thread-374): WARNING: Found documentation for resource "wns_nm_DD_TT_UCID_REFTABLE" which was not found or is disabled
+2021-01-08 18:20:48.294799 (Thread-374): [WARNING]: Test 'test.my_new_project.unique_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:20:48.295136 (Thread-374): [WARNING]: Test 'test.my_new_project.not_null_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:20:49.476678 (Thread-376): handling status request
+2021-01-08 18:20:49.477107 (Thread-376): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e7002b0>]}
+2021-01-08 18:20:49.480762 (Thread-376): sending response (<Response 12389 bytes [200 OK]>) to 10.0.2.182
+2021-01-08 18:21:10.391248 (Thread-377): handling status request
+2021-01-08 18:21:10.391694 (Thread-377): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e4c22e0>]}
+2021-01-08 18:21:10.397558 (Thread-377): sending response (<Response 12389 bytes [200 OK]>) to 10.0.19.92
+2021-01-08 18:21:10.466886 (Thread-378): handling status request
+2021-01-08 18:21:10.467360 (Thread-378): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e1b8430>]}
+2021-01-08 18:21:10.470998 (Thread-378): sending response (<Response 12389 bytes [200 OK]>) to 10.0.44.142
+2021-01-08 18:21:10.832390 (Thread-379): handling cli_args request
+2021-01-08 18:21:10.832993 (Thread-379): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f1eb4c0>]}
+2021-01-08 18:21:10.848790 (Thread-379): Connection 'model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3' was properly closed.
+2021-01-08 18:21:11.786472 (Thread-379): sending response (<Response 138 bytes [200 OK]>) to 10.0.36.51
+2021-01-08 18:21:11.867107 (MainThread): Partial parsing not enabled
+2021-01-08 18:21:11.870582 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:21:11.871583 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:21:11.898225 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:21:11.910748 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:21:11.911750 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:21:11.913202 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:21:11.961050 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:21:11.963449 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:21:11.966126 (MainThread): Parsing macros/core.sql
+2021-01-08 18:21:11.969666 (MainThread): Parsing macros/adapters/common.sql
+2021-01-08 18:21:12.020026 (MainThread): Parsing macros/materializations/helpers.sql
+2021-01-08 18:21:12.032969 (MainThread): Parsing macros/materializations/table/table.sql
+2021-01-08 18:21:12.042581 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-01-08 18:21:12.063351 (MainThread): Parsing macros/materializations/view/view.sql
+2021-01-08 18:21:12.070980 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-08 18:21:12.078928 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-01-08 18:21:12.081766 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-01-08 18:21:12.089260 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-01-08 18:21:12.102833 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-08 18:21:12.120419 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-08 18:21:12.122252 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-08 18:21:12.156084 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-01-08 18:21:12.159196 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-01-08 18:21:12.161607 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-01-08 18:21:12.164324 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-01-08 18:21:12.168599 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-01-08 18:21:12.171229 (MainThread): Parsing macros/etc/query.sql
+2021-01-08 18:21:12.172701 (MainThread): Parsing macros/etc/datetime.sql
+2021-01-08 18:21:12.181575 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-01-08 18:21:12.182629 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-01-08 18:21:12.184300 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-01-08 18:21:12.187672 (Thread-380): handling poll request
+2021-01-08 18:21:12.188090 (Thread-380): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e20f550>]}
+2021-01-08 18:21:12.191914 (Thread-380): sending response (<Response 9080 bytes [200 OK]>) to 10.0.8.15
+2021-01-08 18:21:12.198776 (MainThread): Partial parsing not enabled
+2021-01-08 18:21:12.247003 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_sd_dim_customer_demo".
+2021-01-08 18:21:12.274007 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_demogog_staging".
+2021-01-08 18:21:12.288397 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_tt_ucid_reftable".
+2021-01-08 18:21:12.301686 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_info".
+2021-01-08 18:21:12.317873 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp2".
+2021-01-08 18:21:12.335625 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1_2".
+2021-01-08 18:21:12.353460 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1".
+2021-01-08 18:21:12.367847 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-01-08 18:21:12.591108 (MainThread): WARNING: Found documentation for resource "wns_nm_DD_TT_UCID_REFTABLE" which was not found or is disabled
+2021-01-08 18:21:12.591430 (MainThread): [WARNING]: Test 'test.my_new_project.unique_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:21:12.591497 (MainThread): [WARNING]: Test 'test.my_new_project.not_null_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:21:12.733787 (MainThread): Found 8 models, 0 tests, 0 snapshots, 0 analyses, 163 macros, 0 operations, 0 seed files, 0 sources
+2021-01-08 18:21:12.734757 (MainThread): WARNING: Nothing to do. Try checking your model configs and model specification args
+2021-01-08 18:21:13.581548 (Thread-381): handling poll request
+2021-01-08 18:21:13.581984 (Thread-381): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e453310>]}
+2021-01-08 18:21:13.584106 (Thread-381): sending response (<Response 5072 bytes [200 OK]>) to 10.0.29.161
+2021-01-08 18:21:14.018509 (Thread-382): handling status request
+2021-01-08 18:21:14.018930 (Thread-382): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e002040>]}
+2021-01-08 18:21:14.022883 (Thread-382): sending response (<Response 12389 bytes [200 OK]>) to 10.0.36.51
+2021-01-08 18:22:33.368831 (Thread-383): Got an acceptable cached parse result
+2021-01-08 18:22:33.769188 (Thread-383): WARNING: Found documentation for resource "wns_nm_DD_TT_UCID_REFTABLE" which was not found or is disabled
+2021-01-08 18:22:33.769606 (Thread-383): [WARNING]: Test 'test.my_new_project.unique_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:22:33.769958 (Thread-383): [WARNING]: Test 'test.my_new_project.not_null_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:22:34.239802 (Thread-384): handling status request
+2021-01-08 18:22:34.240233 (Thread-384): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e126b80>]}
+2021-01-08 18:22:34.241344 (Thread-384): sending response (<Response 1633 bytes [200 OK]>) to 10.0.23.166
+2021-01-08 18:22:41.903961 (Thread-385): Got an acceptable cached parse result
+2021-01-08 18:22:42.129621 (Thread-385): WARNING: Found documentation for resource "wns_nm_DD_TT_UCID_REFTABLE" which was not found or is disabled
+2021-01-08 18:22:42.129966 (Thread-385): [WARNING]: Test 'test.my_new_project.unique_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:22:42.130335 (Thread-385): [WARNING]: Test 'test.my_new_project.not_null_wns_nm_DD_TT_UCID_REFTABLE_ucid' (models/schema.yml) depends on a node named 'wns_nm_DD_TT_UCID_REFTABLE' which was not found
+2021-01-08 18:22:42.532354 (Thread-386): handling status request
+2021-01-08 18:22:42.532791 (Thread-386): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e2ae460>]}
+2021-01-08 18:22:42.533889 (Thread-386): sending response (<Response 1633 bytes [200 OK]>) to 10.0.45.44
+2021-01-08 18:22:52.660749 (Thread-387): handling status request
+2021-01-08 18:22:52.661252 (Thread-387): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e70aac0>]}
+2021-01-08 18:22:52.662443 (Thread-387): sending response (<Response 1633 bytes [200 OK]>) to 10.0.8.15

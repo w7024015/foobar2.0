@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: wns_nm_DD_TT_UCID_REFTABLE
+    columns:
+      - name: ucid
+        tests:
+          - unique
+          - not_null
