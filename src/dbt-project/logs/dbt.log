@@ -6437,3 +6437,527 @@ having not(total_amount >= 0)
 2021-01-08 18:29:22.650074 (Thread-412): handling status request
 2021-01-08 18:29:22.650520 (Thread-412): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f158520>]}
 2021-01-08 18:29:22.651309 (Thread-412): sending response (<Response 448 bytes [200 OK]>) to 10.0.13.33
+2021-01-08 18:29:28.676662 (Thread-413): Parsing macros/relations.sql
+2021-01-08 18:29:28.677510 (Thread-413): Parsing macros/adapters.sql
+2021-01-08 18:29:28.704941 (Thread-413): Parsing macros/catalog.sql
+2021-01-08 18:29:28.717308 (Thread-413): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:29:28.718256 (Thread-413): Parsing macros/relations.sql
+2021-01-08 18:29:28.719640 (Thread-413): Parsing macros/adapters.sql
+2021-01-08 18:29:28.739379 (Thread-413): Parsing macros/catalog.sql
+2021-01-08 18:29:28.741575 (Thread-413): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:29:28.744190 (Thread-413): Parsing macros/core.sql
+2021-01-08 18:29:28.747734 (Thread-413): Parsing macros/adapters/common.sql
+2021-01-08 18:29:28.792632 (Thread-413): Parsing macros/materializations/helpers.sql
+2021-01-08 18:29:28.801039 (Thread-413): Parsing macros/materializations/table/table.sql
+2021-01-08 18:29:28.809547 (Thread-413): Parsing macros/materializations/seed/seed.sql
+2021-01-08 18:29:28.829244 (Thread-413): Parsing macros/materializations/view/view.sql
+2021-01-08 18:29:28.835227 (Thread-413): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-08 18:29:28.839956 (Thread-413): Parsing macros/materializations/incremental/helpers.sql
+2021-01-08 18:29:28.841744 (Thread-413): Parsing macros/materializations/incremental/incremental.sql
+2021-01-08 18:29:28.847632 (Thread-413): Parsing macros/materializations/common/merge.sql
+2021-01-08 18:29:28.860903 (Thread-413): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-08 18:29:28.879839 (Thread-413): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-08 18:29:28.881685 (Thread-413): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-08 18:29:28.909328 (Thread-413): Parsing macros/schema_tests/relationships.sql
+2021-01-08 18:29:28.911232 (Thread-413): Parsing macros/schema_tests/not_null.sql
+2021-01-08 18:29:28.912808 (Thread-413): Parsing macros/schema_tests/unique.sql
+2021-01-08 18:29:28.914504 (Thread-413): Parsing macros/schema_tests/accepted_values.sql
+2021-01-08 18:29:28.917086 (Thread-413): Parsing macros/etc/get_custom_database.sql
+2021-01-08 18:29:28.918718 (Thread-413): Parsing macros/etc/query.sql
+2021-01-08 18:29:28.919745 (Thread-413): Parsing macros/etc/datetime.sql
+2021-01-08 18:29:28.928310 (Thread-413): Parsing macros/etc/get_custom_alias.sql
+2021-01-08 18:29:28.929251 (Thread-413): Parsing macros/etc/is_incremental.sql
+2021-01-08 18:29:28.930842 (Thread-413): Parsing macros/etc/get_custom_schema.sql
+2021-01-08 18:29:28.974230 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_sd_dim_customer_demo".
+2021-01-08 18:29:28.992684 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_demogog_staging".
+2021-01-08 18:29:29.005797 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_tt_ucid_reftable".
+2021-01-08 18:29:29.006684 (Thread-414): handling status request
+2021-01-08 18:29:29.020955 (Thread-414): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e3386a0>]}
+2021-01-08 18:29:29.021580 (Thread-414): sending response (<Response 185 bytes [200 OK]>) to 10.0.23.166
+2021-01-08 18:29:29.027790 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_info".
+2021-01-08 18:29:29.042728 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp2".
+2021-01-08 18:29:29.061493 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1_2".
+2021-01-08 18:29:29.078012 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1".
+2021-01-08 18:29:29.092956 (Thread-413): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-01-08 18:29:29.111931 (Thread-413): Acquiring new redshift connection "test.my_new_project.record_test".
+2021-01-08 18:29:30.965923 (Thread-415): handling status request
+2021-01-08 18:29:30.966469 (Thread-415): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6f3777f0>]}
+2021-01-08 18:29:30.969995 (Thread-415): sending response (<Response 11506 bytes [200 OK]>) to 10.0.29.161
+2021-01-08 18:30:03.954455 (Thread-416): handling status request
+2021-01-08 18:30:03.954933 (Thread-416): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dfee9d0>]}
+2021-01-08 18:30:03.958406 (Thread-416): sending response (<Response 11506 bytes [200 OK]>) to 10.0.19.92
+2021-01-08 18:30:03.965720 (Thread-417): handling status request
+2021-01-08 18:30:03.966031 (Thread-417): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6df861f0>]}
+2021-01-08 18:30:03.969424 (Thread-417): sending response (<Response 11506 bytes [200 OK]>) to 10.0.44.142
+2021-01-08 18:30:04.365868 (Thread-418): handling cli_args request
+2021-01-08 18:30:04.366370 (Thread-418): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e462ac0>]}
+2021-01-08 18:30:04.381767 (Thread-418): Connection 'test.my_new_project.record_test' was properly closed.
+2021-01-08 18:30:05.244427 (Thread-418): sending response (<Response 138 bytes [200 OK]>) to 10.0.18.208
+2021-01-08 18:30:05.312875 (MainThread): Partial parsing not enabled
+2021-01-08 18:30:05.315775 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:30:05.316731 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:30:05.343876 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:30:05.356701 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:30:05.357740 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:30:05.359219 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:30:05.408819 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:30:05.411268 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:30:05.413965 (MainThread): Parsing macros/core.sql
+2021-01-08 18:30:05.417619 (MainThread): Parsing macros/adapters/common.sql
+2021-01-08 18:30:05.460089 (MainThread): Parsing macros/materializations/helpers.sql
+2021-01-08 18:30:05.468926 (MainThread): Parsing macros/materializations/table/table.sql
+2021-01-08 18:30:05.475686 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-01-08 18:30:05.495828 (MainThread): Parsing macros/materializations/view/view.sql
+2021-01-08 18:30:05.502094 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-08 18:30:05.507127 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-01-08 18:30:05.509088 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-01-08 18:30:05.515214 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-01-08 18:30:05.529067 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-08 18:30:05.545213 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-08 18:30:05.547063 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-08 18:30:05.575460 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-01-08 18:30:05.577456 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-01-08 18:30:05.579037 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-01-08 18:30:05.580762 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-01-08 18:30:05.583479 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-01-08 18:30:05.585148 (MainThread): Parsing macros/etc/query.sql
+2021-01-08 18:30:05.586257 (MainThread): Parsing macros/etc/datetime.sql
+2021-01-08 18:30:05.594943 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-01-08 18:30:05.595932 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-01-08 18:30:05.597554 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-01-08 18:30:05.608412 (MainThread): Partial parsing not enabled
+2021-01-08 18:30:05.655238 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_sd_dim_customer_demo".
+2021-01-08 18:30:05.682306 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_demogog_staging".
+2021-01-08 18:30:05.695669 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_tt_ucid_reftable".
+2021-01-08 18:30:05.708979 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_info".
+2021-01-08 18:30:05.723677 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp2".
+2021-01-08 18:30:05.741517 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1_2".
+2021-01-08 18:30:05.757143 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1".
+2021-01-08 18:30:05.771806 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-01-08 18:30:05.799202 (MainThread): Acquiring new redshift connection "test.my_new_project.record_test".
+2021-01-08 18:30:06.047413 (MainThread): Found 8 models, 1 test, 0 snapshots, 0 analyses, 163 macros, 0 operations, 0 seed files, 0 sources
+2021-01-08 18:30:06.048386 (MainThread): 
+2021-01-08 18:30:06.048689 (MainThread): Acquiring new redshift connection "master".
+2021-01-08 18:30:06.059116 (ThreadPoolExecutor-1_0): Acquiring new redshift connection "list_dev_development".
+2021-01-08 18:30:06.069706 (ThreadPoolExecutor-1_0): Using redshift connection "list_dev_development".
+2021-01-08 18:30:06.069795 (ThreadPoolExecutor-1_0): On list_dev_development: BEGIN
+2021-01-08 18:30:06.069853 (ThreadPoolExecutor-1_0): Opening a new connection, currently in state init
+2021-01-08 18:30:06.069896 (ThreadPoolExecutor-1_0): Connecting to Redshift using 'database' credentials
+2021-01-08 18:30:06.693536 (ThreadPoolExecutor-1_0): SQL status: BEGIN in 0.62 seconds
+2021-01-08 18:30:06.693714 (ThreadPoolExecutor-1_0): Using redshift connection "list_dev_development".
+2021-01-08 18:30:06.693786 (ThreadPoolExecutor-1_0): On list_dev_development: /* {"app": "dbt", "dbt_version": "0.18.1", "profile_name": "user", "target_name": "default", "connection_name": "list_dev_development"} */
+select
+      'dev' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'development'
+    union all
+    select
+      'dev' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'development'
+  
+2021-01-08 18:30:06.771849 (ThreadPoolExecutor-1_0): SQL status: SELECT in 0.08 seconds
+2021-01-08 18:30:06.811290 (Thread-419): handling poll request
+2021-01-08 18:30:06.811772 (Thread-419): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dfd48b0>]}
+2021-01-08 18:30:06.817567 (Thread-419): sending response (<Response 16220 bytes [200 OK]>) to 10.0.45.44
+2021-01-08 18:30:06.836273 (ThreadPoolExecutor-1_0): On list_dev_development: ROLLBACK
+2021-01-08 18:30:06.905437 (ThreadPoolExecutor-1_0): On list_dev_development: Close
+2021-01-08 18:30:06.926987 (MainThread): Using redshift connection "master".
+2021-01-08 18:30:06.927108 (MainThread): On master: BEGIN
+2021-01-08 18:30:06.927168 (MainThread): Opening a new connection, currently in state init
+2021-01-08 18:30:06.927209 (MainThread): Connecting to Redshift using 'database' credentials
+2021-01-08 18:30:07.540237 (MainThread): SQL status: BEGIN in 0.61 seconds
+2021-01-08 18:30:07.540406 (MainThread): Using redshift connection "master".
+2021-01-08 18:30:07.540457 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.18.1", "profile_name": "user", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2021-01-08 18:30:07.632939 (MainThread): SQL status: SELECT in 0.09 seconds
+2021-01-08 18:30:07.645744 (MainThread): On master: ROLLBACK
+2021-01-08 18:30:07.713956 (MainThread): On master: Close
+2021-01-08 18:30:07.714805 (MainThread): 18:30:07 | Concurrency: 1 threads (target='default')
+2021-01-08 18:30:07.714972 (MainThread): 18:30:07 | 
+2021-01-08 18:30:07.717430 (Thread-1): Began running node test.my_new_project.record_test
+2021-01-08 18:30:07.717582 (Thread-1): 18:30:07 | 1 of 1 START test record_test........................................ [RUN]
+2021-01-08 18:30:07.717812 (Thread-1): Acquiring new redshift connection "test.my_new_project.record_test".
+2021-01-08 18:30:07.717891 (Thread-1): Compiling test.my_new_project.record_test
+2021-01-08 18:30:07.734432 (Thread-1): Writing injected SQL for node "test.my_new_project.record_test"
+2021-01-08 18:30:07.753875 (Thread-1): finished collecting timing info
+2021-01-08 18:30:07.754191 (Thread-1): Using redshift connection "test.my_new_project.record_test".
+2021-01-08 18:30:07.754259 (Thread-1): On test.my_new_project.record_test: BEGIN
+2021-01-08 18:30:07.754317 (Thread-1): Opening a new connection, currently in state closed
+2021-01-08 18:30:07.754359 (Thread-1): Connecting to Redshift using 'database' credentials
+2021-01-08 18:30:08.325299 (Thread-420): handling poll request
+2021-01-08 18:30:08.325722 (Thread-420): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dcd68b0>]}
+2021-01-08 18:30:08.328383 (Thread-420): sending response (<Response 10292 bytes [200 OK]>) to 10.0.18.208
+2021-01-08 18:30:08.364450 (Thread-1): SQL status: BEGIN in 0.61 seconds
+2021-01-08 18:30:08.364609 (Thread-1): Using redshift connection "test.my_new_project.record_test".
+2021-01-08 18:30:08.364661 (Thread-1): On test.my_new_project.record_test: /* {"app": "dbt", "dbt_version": "0.18.1", "profile_name": "user", "target_name": "default", "node_id": "test.my_new_project.record_test"} */
+
+with dbt__CTE__INTERNAL_test as (
+-- Refunds have a negative amount, so the total amount should always be >= 0.
+-- Therefore return records where this isn't true to make the test fail
+select
+    count(*) as total_amount
+from "dev"."development"."wns_nm_dd_ucid_hhi_demo_temp1"
+having not(total_amount >= 0)
+)select count(*) from dbt__CTE__INTERNAL_test
+2021-01-08 18:30:08.522896 (Thread-1): SQL status: SELECT in 0.16 seconds
+2021-01-08 18:30:08.523226 (Thread-1): finished collecting timing info
+2021-01-08 18:30:08.523475 (Thread-1): On test.my_new_project.record_test: ROLLBACK
+2021-01-08 18:30:08.591487 (Thread-1): On test.my_new_project.record_test: Close
+2021-01-08 18:30:08.592145 (Thread-1): 18:30:08 | 1 of 1 PASS record_test.............................................. [PASS in 0.87s]
+2021-01-08 18:30:08.592263 (Thread-1): Finished running node test.my_new_project.record_test
+2021-01-08 18:30:08.593839 (MainThread): Acquiring new redshift connection "master".
+2021-01-08 18:30:08.594261 (MainThread): 18:30:08 | 
+2021-01-08 18:30:08.594375 (MainThread): 18:30:08 | Finished running 1 test in 2.55s.
+2021-01-08 18:30:08.594459 (MainThread): Connection 'master' was properly closed.
+2021-01-08 18:30:08.594540 (MainThread): Connection 'test.my_new_project.record_test' was properly closed.
+2021-01-08 18:30:08.643592 (MainThread): 
+2021-01-08 18:30:08.643804 (MainThread): Completed successfully
+2021-01-08 18:30:08.643912 (MainThread): 
+Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2021-01-08 18:30:09.748532 (Thread-421): handling poll request
+2021-01-08 18:30:09.749009 (Thread-421): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dcad970>]}
+2021-01-08 18:30:09.754027 (Thread-421): sending response (<Response 9463 bytes [200 OK]>) to 10.0.2.182
+2021-01-08 18:30:10.187657 (Thread-422): handling status request
+2021-01-08 18:30:10.188236 (Thread-422): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dca4b80>]}
+2021-01-08 18:30:10.193992 (Thread-422): sending response (<Response 11506 bytes [200 OK]>) to 10.0.44.142
+2021-01-08 18:31:46.478068 (Thread-423): handling status request
+2021-01-08 18:31:46.480408 (Thread-423): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dfcbd90>]}
+2021-01-08 18:31:46.483986 (Thread-423): sending response (<Response 11506 bytes [200 OK]>) to 10.0.19.92
+2021-01-08 18:31:46.536555 (Thread-424): handling status request
+2021-01-08 18:31:46.537018 (Thread-424): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dfcb400>]}
+2021-01-08 18:31:46.543108 (Thread-424): sending response (<Response 11506 bytes [200 OK]>) to 10.0.44.142
+2021-01-08 18:31:46.992631 (Thread-425): handling cli_args request
+2021-01-08 18:31:46.993072 (Thread-425): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dfcb0d0>]}
+2021-01-08 18:31:47.856609 (Thread-425): sending response (<Response 138 bytes [200 OK]>) to 10.0.8.15
+2021-01-08 18:31:47.918804 (MainThread): Partial parsing not enabled
+2021-01-08 18:31:47.921460 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:31:47.922443 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:31:47.949232 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:31:47.961993 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:31:47.963090 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:31:47.964567 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:31:48.016814 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:31:48.019251 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:31:48.021932 (MainThread): Parsing macros/core.sql
+2021-01-08 18:31:48.025617 (MainThread): Parsing macros/adapters/common.sql
+2021-01-08 18:31:48.068855 (MainThread): Parsing macros/materializations/helpers.sql
+2021-01-08 18:31:48.077722 (MainThread): Parsing macros/materializations/table/table.sql
+2021-01-08 18:31:48.084464 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-01-08 18:31:48.104305 (MainThread): Parsing macros/materializations/view/view.sql
+2021-01-08 18:31:48.110458 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-08 18:31:48.115284 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-01-08 18:31:48.117117 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-01-08 18:31:48.124457 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-01-08 18:31:48.142025 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-08 18:31:48.162240 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-08 18:31:48.164077 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-08 18:31:48.191349 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-01-08 18:31:48.193446 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-01-08 18:31:48.195043 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-01-08 18:31:48.196811 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-01-08 18:31:48.199848 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-01-08 18:31:48.201597 (MainThread): Parsing macros/etc/query.sql
+2021-01-08 18:31:48.202750 (MainThread): Parsing macros/etc/datetime.sql
+2021-01-08 18:31:48.211613 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-01-08 18:31:48.212680 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-01-08 18:31:48.214359 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-01-08 18:31:48.225326 (MainThread): Partial parsing not enabled
+2021-01-08 18:31:48.272369 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_sd_dim_customer_demo".
+2021-01-08 18:31:48.300280 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_demogog_staging".
+2021-01-08 18:31:48.313833 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_tt_ucid_reftable".
+2021-01-08 18:31:48.326912 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_info".
+2021-01-08 18:31:48.347025 (Thread-426): handling poll request
+2021-01-08 18:31:48.347480 (Thread-426): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dcec040>]}
+2021-01-08 18:31:48.351934 (Thread-426): sending response (<Response 10627 bytes [200 OK]>) to 10.0.18.208
+2021-01-08 18:31:48.342068 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp2".
+2021-01-08 18:31:48.361977 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1_2".
+2021-01-08 18:31:48.377925 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1".
+2021-01-08 18:31:48.392948 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-01-08 18:31:48.421963 (MainThread): Acquiring new redshift connection "test.my_new_project.record_test".
+2021-01-08 18:31:48.654234 (MainThread): Found 8 models, 1 test, 0 snapshots, 0 analyses, 163 macros, 0 operations, 0 seed files, 0 sources
+2021-01-08 18:31:48.654751 (MainThread): The selector 'None' does not match any nodes and will be ignored
+2021-01-08 18:31:48.655220 (MainThread): WARNING: Nothing to do. Try checking your model configs and model specification args
+2021-01-08 18:31:49.730654 (Thread-427): handling poll request
+2021-01-08 18:31:49.731244 (Thread-427): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e089a30>]}
+2021-01-08 18:31:49.733004 (Thread-427): sending response (<Response 2956 bytes [200 OK]>) to 10.0.19.92
+2021-01-08 18:31:50.170291 (Thread-428): handling status request
+2021-01-08 18:31:50.170709 (Thread-428): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e580820>]}
+2021-01-08 18:31:50.174460 (Thread-428): sending response (<Response 11506 bytes [200 OK]>) to 10.0.16.243
+2021-01-08 18:32:33.168373 (Thread-429): handling status request
+2021-01-08 18:32:33.168802 (Thread-429): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dca4220>]}
+2021-01-08 18:32:33.172272 (Thread-429): sending response (<Response 11506 bytes [200 OK]>) to 10.0.38.238
+2021-01-08 18:32:33.182257 (Thread-430): handling status request
+2021-01-08 18:32:33.182629 (Thread-430): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dcad730>]}
+2021-01-08 18:32:33.187579 (Thread-430): sending response (<Response 11506 bytes [200 OK]>) to 10.0.16.243
+2021-01-08 18:32:33.574617 (Thread-431): handling cli_args request
+2021-01-08 18:32:33.575067 (Thread-431): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e194070>]}
+2021-01-08 18:32:34.469148 (Thread-431): sending response (<Response 138 bytes [200 OK]>) to 10.0.19.92
+2021-01-08 18:32:34.530599 (MainThread): Partial parsing not enabled
+2021-01-08 18:32:34.533186 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:32:34.534228 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:32:34.561414 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:32:34.574358 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:32:34.575407 (MainThread): Parsing macros/relations.sql
+2021-01-08 18:32:34.576855 (MainThread): Parsing macros/adapters.sql
+2021-01-08 18:32:34.627962 (MainThread): Parsing macros/catalog.sql
+2021-01-08 18:32:34.630361 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-01-08 18:32:34.633045 (MainThread): Parsing macros/core.sql
+2021-01-08 18:32:34.637372 (MainThread): Parsing macros/adapters/common.sql
+2021-01-08 18:32:34.680105 (MainThread): Parsing macros/materializations/helpers.sql
+2021-01-08 18:32:34.689028 (MainThread): Parsing macros/materializations/table/table.sql
+2021-01-08 18:32:34.695956 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-01-08 18:32:34.716230 (MainThread): Parsing macros/materializations/view/view.sql
+2021-01-08 18:32:34.722524 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-08 18:32:34.727432 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-01-08 18:32:34.729292 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-01-08 18:32:34.735403 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-01-08 18:32:34.749111 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-08 18:32:34.765589 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-08 18:32:34.767466 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-08 18:32:34.796221 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-01-08 18:32:34.798209 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-01-08 18:32:34.799766 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-01-08 18:32:34.801478 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-01-08 18:32:34.804158 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-01-08 18:32:34.805833 (MainThread): Parsing macros/etc/query.sql
+2021-01-08 18:32:34.806967 (MainThread): Parsing macros/etc/datetime.sql
+2021-01-08 18:32:34.815630 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-01-08 18:32:34.816635 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-01-08 18:32:34.818252 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-01-08 18:32:34.829187 (MainThread): Partial parsing not enabled
+2021-01-08 18:32:34.872014 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_sd_dim_customer_demo".
+2021-01-08 18:32:34.888937 (Thread-432): handling poll request
+2021-01-08 18:32:34.889350 (Thread-432): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e194310>]}
+2021-01-08 18:32:34.893077 (Thread-432): sending response (<Response 9662 bytes [200 OK]>) to 10.0.2.182
+2021-01-08 18:32:34.898941 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_demogog_staging".
+2021-01-08 18:32:34.911987 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_tt_ucid_reftable".
+2021-01-08 18:32:34.925251 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_info".
+2021-01-08 18:32:34.940537 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp2".
+2021-01-08 18:32:34.959170 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1_2".
+2021-01-08 18:32:34.975262 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1".
+2021-01-08 18:32:34.990137 (MainThread): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-01-08 18:32:35.017231 (MainThread): Acquiring new redshift connection "test.my_new_project.record_test".
+2021-01-08 18:32:35.241069 (MainThread): Found 8 models, 1 test, 0 snapshots, 0 analyses, 163 macros, 0 operations, 0 seed files, 0 sources
+2021-01-08 18:32:35.242009 (MainThread): 
+2021-01-08 18:32:35.242336 (MainThread): Acquiring new redshift connection "master".
+2021-01-08 18:32:35.252626 (ThreadPoolExecutor-1_0): Acquiring new redshift connection "list_dev_development".
+2021-01-08 18:32:35.263263 (ThreadPoolExecutor-1_0): Using redshift connection "list_dev_development".
+2021-01-08 18:32:35.263349 (ThreadPoolExecutor-1_0): On list_dev_development: BEGIN
+2021-01-08 18:32:35.263407 (ThreadPoolExecutor-1_0): Opening a new connection, currently in state init
+2021-01-08 18:32:35.263448 (ThreadPoolExecutor-1_0): Connecting to Redshift using 'database' credentials
+2021-01-08 18:32:35.880296 (ThreadPoolExecutor-1_0): SQL status: BEGIN in 0.62 seconds
+2021-01-08 18:32:35.880452 (ThreadPoolExecutor-1_0): Using redshift connection "list_dev_development".
+2021-01-08 18:32:35.880502 (ThreadPoolExecutor-1_0): On list_dev_development: /* {"app": "dbt", "dbt_version": "0.18.1", "profile_name": "user", "target_name": "default", "connection_name": "list_dev_development"} */
+select
+      'dev' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'development'
+    union all
+    select
+      'dev' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'development'
+  
+2021-01-08 18:32:35.957799 (ThreadPoolExecutor-1_0): SQL status: SELECT in 0.08 seconds
+2021-01-08 18:32:36.009127 (ThreadPoolExecutor-1_0): On list_dev_development: ROLLBACK
+2021-01-08 18:32:36.077457 (ThreadPoolExecutor-1_0): On list_dev_development: Close
+2021-01-08 18:32:36.102482 (MainThread): Using redshift connection "master".
+2021-01-08 18:32:36.102653 (MainThread): On master: BEGIN
+2021-01-08 18:32:36.102753 (MainThread): Opening a new connection, currently in state init
+2021-01-08 18:32:36.102825 (MainThread): Connecting to Redshift using 'database' credentials
+2021-01-08 18:32:36.378004 (Thread-433): handling poll request
+2021-01-08 18:32:36.378462 (Thread-433): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6e07ffd0>]}
+2021-01-08 18:32:36.414458 (Thread-433): sending response (<Response 8488 bytes [200 OK]>) to 10.0.18.208
+2021-01-08 18:32:36.717681 (MainThread): SQL status: BEGIN in 0.61 seconds
+2021-01-08 18:32:36.717829 (MainThread): Using redshift connection "master".
+2021-01-08 18:32:36.717879 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.18.1", "profile_name": "user", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2021-01-08 18:32:36.810741 (MainThread): SQL status: SELECT in 0.09 seconds
+2021-01-08 18:32:36.823716 (MainThread): On master: ROLLBACK
+2021-01-08 18:32:36.892112 (MainThread): On master: Close
+2021-01-08 18:32:36.892674 (MainThread): 18:32:36 | Concurrency: 1 threads (target='default')
+2021-01-08 18:32:36.892777 (MainThread): 18:32:36 | 
+2021-01-08 18:32:36.894655 (Thread-1): Began running node test.my_new_project.record_test
+2021-01-08 18:32:36.894840 (Thread-1): 18:32:36 | 1 of 1 START test record_test........................................ [RUN]
+2021-01-08 18:32:36.895149 (Thread-1): Acquiring new redshift connection "test.my_new_project.record_test".
+2021-01-08 18:32:36.895261 (Thread-1): Compiling test.my_new_project.record_test
+2021-01-08 18:32:36.913535 (Thread-1): Writing injected SQL for node "test.my_new_project.record_test"
+2021-01-08 18:32:36.933601 (Thread-1): finished collecting timing info
+2021-01-08 18:32:36.933909 (Thread-1): Using redshift connection "test.my_new_project.record_test".
+2021-01-08 18:32:36.933968 (Thread-1): On test.my_new_project.record_test: BEGIN
+2021-01-08 18:32:36.934027 (Thread-1): Opening a new connection, currently in state closed
+2021-01-08 18:32:36.934068 (Thread-1): Connecting to Redshift using 'database' credentials
+2021-01-08 18:32:37.548724 (Thread-1): SQL status: BEGIN in 0.61 seconds
+2021-01-08 18:32:37.548903 (Thread-1): Using redshift connection "test.my_new_project.record_test".
+2021-01-08 18:32:37.548958 (Thread-1): On test.my_new_project.record_test: /* {"app": "dbt", "dbt_version": "0.18.1", "profile_name": "user", "target_name": "default", "node_id": "test.my_new_project.record_test"} */
+
+with dbt__CTE__INTERNAL_test as (
+-- Refunds have a negative amount, so the total amount should always be >= 0.
+-- Therefore return records where this isn't true to make the test fail
+select
+    count(*) as total_amount
+from "dev"."development"."wns_nm_dd_ucid_hhi_demo_temp1"
+having not(total_amount >= 0)
+)select count(*) from dbt__CTE__INTERNAL_test
+2021-01-08 18:32:37.707112 (Thread-1): SQL status: SELECT in 0.16 seconds
+2021-01-08 18:32:37.707566 (Thread-1): finished collecting timing info
+2021-01-08 18:32:37.707976 (Thread-1): On test.my_new_project.record_test: ROLLBACK
+2021-01-08 18:32:37.776376 (Thread-1): On test.my_new_project.record_test: Close
+2021-01-08 18:32:37.776981 (Thread-1): 18:32:37 | 1 of 1 PASS record_test.............................................. [PASS in 0.88s]
+2021-01-08 18:32:37.777079 (Thread-1): Finished running node test.my_new_project.record_test
+2021-01-08 18:32:37.778362 (MainThread): Acquiring new redshift connection "master".
+2021-01-08 18:32:37.778608 (MainThread): 18:32:37 | 
+2021-01-08 18:32:37.778671 (MainThread): 18:32:37 | Finished running 1 test in 2.54s.
+2021-01-08 18:32:37.778716 (MainThread): Connection 'master' was properly closed.
+2021-01-08 18:32:37.778753 (MainThread): Connection 'test.my_new_project.record_test' was properly closed.
+2021-01-08 18:32:37.801137 (MainThread): 
+2021-01-08 18:32:37.801265 (MainThread): Completed successfully
+2021-01-08 18:32:37.801323 (MainThread): 
+Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2021-01-08 18:32:37.811506 (Thread-434): handling poll request
+2021-01-08 18:32:37.811867 (Thread-434): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6ddcd190>]}
+2021-01-08 18:32:37.815606 (Thread-434): sending response (<Response 14972 bytes [200 OK]>) to 10.0.19.92
+2021-01-08 18:32:39.220391 (Thread-435): handling poll request
+2021-01-08 18:32:39.221039 (Thread-435): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dcec5e0>]}
+2021-01-08 18:32:39.226622 (Thread-435): sending response (<Response 3119 bytes [200 OK]>) to 10.0.14.37
+2021-01-08 18:32:39.625300 (Thread-436): handling status request
+2021-01-08 18:32:39.625713 (Thread-436): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6ddcd520>]}
+2021-01-08 18:32:39.629443 (Thread-436): sending response (<Response 11506 bytes [200 OK]>) to 10.0.23.166
+2021-01-08 18:32:53.460344 (Thread-437): handling status request
+2021-01-08 18:32:53.460768 (Thread-437): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2e1c5a32-cee5-49e1-a290-7af755b6b5aa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5d6dfcb9d0>]}
+2021-01-08 18:32:53.464329 (Thread-437): sending response (<Response 11506 bytes [200 OK]>) to 10.0.13.33
