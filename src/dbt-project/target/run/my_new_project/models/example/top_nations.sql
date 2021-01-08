@@ -1,0 +1,25 @@
+
+
+  create  table
+    "dev"."development"."top_nations__dbt_tmp"
+    
+    
+  as (
+    /*
+   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+   SPDX-License-Identifier: MIT-0
+*/
+
+
+/*
+    Find 3 nations with the most active customers
+*/
+
+
+
+select n_name, n_comment, count(*) as active_buyers
+from nation n left join "dev"."development"."top_customers" c on n.n_nationkey = c.c_nationkey
+group by n_name, n_comment
+order by active_buyers desc
+limit 5
+  );
